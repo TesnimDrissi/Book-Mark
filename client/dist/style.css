@@ -1,0 +1,181 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	margin: 0;
+	padding: 1rem;
+    background-image: url(wepik-a-love-story-book-cover-20230630151428SFPT.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: rgb(63, 22, 37);
+   
+}
+
+.wrapper {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+ol {
+	list-style: none;
+	padding: 0;
+}
+
+ul + ul {
+	margin-top: 1rem;
+}
+
+ul {
+	display: flex;
+	gap: 1rem;
+	background: rgb(87, 68, 74);
+	padding: 1.5rem;
+	border-radius: 1rem;
+	
+	box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.1);
+     
+}
+
+li{
+    font-family: Consolas;
+    align-items: center;
+    margin-left: 150px;
+    font-weight: bold;
+    width: 200%;
+
+    
+}
+
+.image{
+    width: 70px;
+    border-radius: 50%;
+    /* margin-right: 300px;
+    margin-top: 20px;
+    margin-left: 105px; */
+    /* margin-bottom: 900px; */
+}
+
+.add{
+    width: 70px;
+    border-radius: 50%; 
+    margin-left: 715px;
+}
+
+.home-img{
+    width: 300px;
+    border-radius: 50%;
+    /* margin-right: 300px; */
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+
+ul::before {
+    
+    
+	font-size: 3rem;
+	font-weight: 700;
+	width: 2em;
+	height: 2em;
+	background: black;
+	flex: 0 0 auto;
+	border-radius: 50%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul:nth-child(even) {
+	flex-direction: row-reverse;
+	background: lavender;
+	margin-right: -2rem;
+	margin-left: 2rem;
+}
+
+/* .browse-img {
+    width: 500px;
+    border-radius: 20%;
+    
+    margin-top: 20px;
+    margin-left: 500px;
+} */
+
+.category{
+    margin-left: 50px;
+}
+
+.name{
+    margin-left: 20px;
+}
+
+.author{
+    margin-left: 50px;
+}
+
+.description{
+    margin-left: 50px;
+}
+
+.input{
+    border-radius: 5px;
+    background-color: #462828;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+
+.name-input{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #886262;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.category-input{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #886262;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.author-input{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #886262;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.description-input{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #886262;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.create{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+
+    background-color: #886262 ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
